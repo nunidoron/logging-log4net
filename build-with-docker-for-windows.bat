@@ -13,6 +13,11 @@ rem software distributed under the License is distributed on an
 rem "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
 rem KIND, either express or implied.  See the License for the
 rem specific language governing permissions and limitations
-rem under the License.
+rem under the License.sdfsdf
+sdfsdfsd
+fsdfsdfsfsd
+fsdfsdfsfsddsf
+distributedfsdds
+fsdf
 
 docker run -v %~dp0%:C:\dev -v %USERPROFILE%\.nuget\packages:C:\packages -t davydm/net-build-tools:vs2019 "npm ci && npm run build"
